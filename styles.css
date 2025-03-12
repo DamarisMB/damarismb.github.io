@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/*  Navigation */
+.top-nav {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+  background-color: rgba(28, 95, 65, 0.8);
+  color: #ebe6e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  box-shadow: 2px 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.top-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.top-nav ul li {
+  display: inline-block;
+}
+
+.top-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  width: 140px;
+  display: block;
+  padding: 25px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.top-nav ul li a:hover {
+  background-color: #264653;
+}
+
+/*  Home Main Content */
+.home-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(36, 34, 34);
+}
+
+.home-section .home-title {
+  text-align: center; /* Centers the text horizontally */
+  text-transform: uppercase;
+  font-size: 55px;
+  font-family: "Poppins", serif;
+  font-weight: 1000;
+  font-style: normal;
+  color: rgb(91, 124, 100);
+  margin-bottom: 20px;
+}
+
+.home-section .home-content {
+  text-align: center; /* Centers the text horizontally */
+  font-size: 25px;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(244, 142, 142);
+  margin: 0 auto 20px; /* Adds 20px of space below the text */
+  max-width: 80%; /* Restricts text width for better readability */
+}
+.home-image-section {
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Ensures image is vertically aligned */
+  margin: 0 auto; /* Centers the section horizontally */
+  width: 30%; /* Controls the image section width */
+  height: auto; /* Allows height to adjust dynamically */
+  border-radius: 10%; /* Adds slight rounding to the container */
+}
+
+.home-image-section img {
+  width: 100%; /* Ensures the image fills the container width */
+  height: auto; /* Maintains the image's aspect ratio */
+  border-radius: 10%; /* Slight rounding for a polished look */
+}
+
+/*  About Me Main Content */
+.section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(36, 34, 34);
+}
+
+.container {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.content-section {
+  float: left;
+  width: 55%;
+}
+
+.image-section {
+  float: right;
+  width: 35%;
+  height: auto;
+  border-radius: 5em;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 5em;
+}
+
+.content-section .title {
+  float: left;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
+
+.content-section .content h1 {
+  float: left;
+  margin-top: 20px;
+  color: #fff;
+}
+.content-section .content h5 {
+  float: left;
+  margin-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+span {
+  color: #0d6749;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.content-section .content p {
+  margin-top: 10px;
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 1.5;
+  color: #a9a5a1;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+  }
+  .container-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .image-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .container-section .title {
+    text-align: center;
+    font-size: 19x;
+  }
+}
+
+/*  Portfolio Main Content */
+.portfolio-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(36, 34, 34);
+}
+
+.portfolio-title {
+  text-align: left; /* Centers the text horizontally */
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #d6e7ce;
+  padding-top: 25px;
+  margin-left: 75px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  text-align: center; /* Centers the text horizontally */
+  font-size: 25px;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  margin: 0 auto 20px; /* Adds 20px of space below the text */
+  max-width: 80%; /* Restricts text width for better readability */
+}
+
+.projects {
+  list-style-type: none;
+}
+
+.projects ul {
+  list-style: none;
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.projects ul li a {
+  color: rgb(177, 170, 170);
+  list-style-type: none;
+  text-decoration: none;
+  width: 140px;
+  display: block;
+  padding: 25px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.projects ul li a:hover {
+  background-color: #d3e2e9;
+}
+.portfolio-image-section {
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Ensures image is vertically aligned */
+  margin: 0 auto; /* Centers the section horizontally */
+  width: 30%; /* Controls the image section width */
+  height: auto; /* Allows height to adjust dynamically */
+  border-radius: 10%; /* Adds slight rounding to the container */
+}
+
+.portfolio-image-section img {
+  width: 100%; /* Ensures the image fills the container width */
+  height: auto; /* Maintains the image's aspect ratio */
+  border-radius: 10%; /* Slight rounding for a polished look */
+}
+
+/*  Contact Main Content */
+.contact-container {
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+}
+.contact-section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(36, 34, 34);
+}
+
+.contact-title {
+  text-align: center; /* Centers the text horizontally */
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #d6e7ce;
+  margin-bottom: 20px;
+}
+
+.contact-section .contact-content {
+  text-align: center; /* Centers the text horizontally */
+  font-size: 25px;
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  margin: 0 auto 20px; /* Adds 20px of space below the text */
+  max-width: 80%; /* Restricts text width for better readability */
+}
+.contact-image-section {
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Ensures image is vertically aligned */
+  margin: 0 auto; /* Centers the section horizontally */
+  width: 20%; /* Controls the image section width */
+  height: auto; /* Allows height to adjust dynamically */
+  border-radius: 10%; /* Adds slight rounding to the container */
+}
+
+.contact-image-section img {
+  width: 10%; /* Ensures the image fills the container width */
+  height: auto; /* Maintains the image's aspect ratio */
+  border-radius: 10%; /* Slight rounding for a polished look */
+}
+
+/*  Footer */
+.main-footer {
+  background-color: rgb(1, 64, 42);
+  color: white;
+  padding: 0.25em 0;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}

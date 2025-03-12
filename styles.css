@@ -59,7 +59,7 @@
 }
 
 .home-section .home-title {
-  text-align: center; /* Centers the text horizontally */
+  text-align: center; 
   text-transform: uppercase;
   font-size: 55px;
   font-family: "Poppins", serif;
@@ -70,28 +70,28 @@
 }
 
 .home-section .home-content {
-  text-align: center; /* Centers the text horizontally */
+  text-align: center; 
   font-size: 25px;
   font-family: "Poppins", serif;
   font-weight: 700;
   font-style: normal;
   color: rgb(244, 142, 142);
-  margin: 0 auto 20px; /* Adds 20px of space below the text */
-  max-width: 80%; /* Restricts text width for better readability */
+  margin: 0 auto 20px; 
+  max-width: 80%; 
 }
 .home-image-section {
-  justify-content: center; /* Centers the image horizontally */
-  align-items: center; /* Ensures image is vertically aligned */
-  margin: 0 auto; /* Centers the section horizontally */
-  width: 30%; /* Controls the image section width */
-  height: auto; /* Allows height to adjust dynamically */
-  border-radius: 10%; /* Adds slight rounding to the container */
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 auto; 
+  width: 30%; /
+  height: auto; 
+  border-radius: 10%; /
 }
 
 .home-image-section img {
-  width: 100%; /* Ensures the image fills the container width */
-  height: auto; /* Maintains the image's aspect ratio */
-  border-radius: 10%; /* Slight rounding for a polished look */
+  width: 100%; 
+  height: auto; 
+  border-radius: 10%; 
 }
 
 /*  About Me Main Content */
@@ -196,7 +196,7 @@ span {
 }
 
 .portfolio-title {
-  text-align: left; /* Centers the text horizontally */
+  text-align: left; 
   text-transform: uppercase;
   font-size: 45px;
   font-family: "Roboto Condensed", serif;
@@ -210,14 +210,14 @@ span {
 }
 
 .intro {
-  text-align: center; /* Centers the text horizontally */
+  text-align: center; 
   font-size: 25px;
   font-family: "Poppins", serif;
   font-weight: 200;
   font-style: normal;
   color: rgb(255, 255, 255);
-  margin: 0 auto 20px; /* Adds 20px of space below the text */
-  max-width: 80%; /* Restricts text width for better readability */
+  margin: 0 auto 20px; 
+  max-width: 80%; 
 }
 
 .projects {
@@ -250,18 +250,18 @@ span {
   background-color: #d3e2e9;
 }
 .portfolio-image-section {
-  justify-content: center; /* Centers the image horizontally */
-  align-items: center; /* Ensures image is vertically aligned */
-  margin: 0 auto; /* Centers the section horizontally */
-  width: 30%; /* Controls the image section width */
-  height: auto; /* Allows height to adjust dynamically */
-  border-radius: 10%; /* Adds slight rounding to the container */
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 auto; 
+  width: 30%; 
+  height: auto; 
+  border-radius: 10%; 
 }
 
 .portfolio-image-section img {
-  width: 100%; /* Ensures the image fills the container width */
-  height: auto; /* Maintains the image's aspect ratio */
-  border-radius: 10%; /* Slight rounding for a polished look */
+  width: 100%; 
+  height: auto; 
+  border-radius: 10%; 
 }
 
 /*  Contact Main Content */
@@ -278,7 +278,7 @@ span {
 }
 
 .contact-title {
-  text-align: center; /* Centers the text horizontally */
+  text-align: center; 
   align-items: center;
   padding: 10px 20px;
   position: sticky;
@@ -293,28 +293,28 @@ span {
 }
 
 .contact-section .contact-content {
-  text-align: center; /* Centers the text horizontally */
+  text-align: center; 
   font-size: 25px;
   font-family: "Poppins", serif;
   font-weight: 200;
   font-style: normal;
   color: rgb(255, 255, 255);
-  margin: 0 auto 20px; /* Adds 20px of space below the text */
-  max-width: 80%; /* Restricts text width for better readability */
+  margin: 0 auto 20px; 
+  max-width: 80%; 
 }
 .contact-image-section {
-  justify-content: center; /* Centers the image horizontally */
-  align-items: center; /* Ensures image is vertically aligned */
-  margin: 0 auto; /* Centers the section horizontally */
-  width: 20%; /* Controls the image section width */
-  height: auto; /* Allows height to adjust dynamically */
-  border-radius: 10%; /* Adds slight rounding to the container */
+  justify-content: center;
+  align-items: center; 
+  margin: 0 auto; 
+  width: 20%; 
+  height: auto; 
+  border-radius: 10%; 
 }
 
 .contact-image-section img {
-  width: 10%; /* Ensures the image fills the container width */
-  height: auto; /* Maintains the image's aspect ratio */
-  border-radius: 10%; /* Slight rounding for a polished look */
+  width: 10%; 
+  height: auto; 
+  border-radius: 10%; 
 }
 
 /*  Footer */
